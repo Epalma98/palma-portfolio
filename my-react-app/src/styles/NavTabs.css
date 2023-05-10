@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+}
+
+#split {
+    float: left;
+    font-size: 30px;
+}
+
+.nav-tabs {
+    justify-content: end;
+    padding: 0px;
+    text-decoration: none;
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-tabs a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-tabs a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav-tabs a.active {
+    background-color: #2cd8eb;
+    color: #333;
+}
