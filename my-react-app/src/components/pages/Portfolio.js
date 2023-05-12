@@ -27,6 +27,9 @@ const styles = {
   projectImg: {
     width: "20rem",
     margin: "1rem",
+  },
+  caption: {
+    textAlign: "center",
   }
 };
 
@@ -41,21 +44,25 @@ export default function Portfolio() {
             <a href="https://whispering-garden-84047.herokuapp.com/"> 
               <img style={styles.projectImg} src={moondollarsImg} alt="MoonDollars Fullstack App"></img>
             </a>
+            <p style={styles.caption}>MoonDollars Fullstack App</p>
           </div>
           <div class="col-3">
             <a href="https://sadiemantlo.github.io/Project-1/">
               <img style={styles.projectImg} src={craftAndCocktailsImg} alt="Craft and Cocktail App"></img>
             </a>
+            <p style={styles.caption}>Craft & Cocktail App</p>
           </div>
           <div class="col-3">
             <a href="https://epalma-text-editor.herokuapp.com/"> 
               <img style={styles.projectImg} src={jateImg} alt="J.A.T.E Text Editor"></img>
             </a>
+            <p style={styles.caption}>J.A.T.E Text Editor</p>
           </div>
           <div class="col-3">
             <a href="https://epalma98.github.io/Weather-Dashboard/"> 
               <img style={styles.projectImg} src={weatherAppImg} alt="Weather App"></img>
             </a>
+            <p style={styles.caption}>Weather App</p>
           </div>
         </div>
       </div>  

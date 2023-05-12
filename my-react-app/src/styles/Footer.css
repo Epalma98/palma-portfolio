@@ -1,0 +1,27 @@
+.Footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footer a {
+    margin: 20px;
+}
+
+#github-icon:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+#linkedin-icon:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+#stack-icon:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
