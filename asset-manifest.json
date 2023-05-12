@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/palma-portfolio/static/css/main.e6385e7c.css",
+    "main.js": "/palma-portfolio/static/js/main.5810e4b1.js",
+    "static/media/CraftAndCocktail.png": "/palma-portfolio/static/media/CraftAndCocktail.d920d9f29d7579e72d91.png",
+    "static/media/Headshot.jpg": "/palma-portfolio/static/media/Headshot.1727ebf83d435f75a993.jpg",
+    "static/media/weatherApp.png": "/palma-portfolio/static/media/weatherApp.3192a6f11cf41e10dcce.png",
+    "static/media/moon-dollars-fullstack-app.png": "/palma-portfolio/static/media/moon-dollars-fullstack-app.df360e454890e0c29dbd.png",
+    "static/media/JATEhomepage.png": "/palma-portfolio/static/media/JATEhomepage.67000d6d6da1f0c2c584.png",
+    "index.html": "/palma-portfolio/index.html",
+    "main.e6385e7c.css.map": "/palma-portfolio/static/css/main.e6385e7c.css.map",
+    "main.5810e4b1.js.map": "/palma-portfolio/static/js/main.5810e4b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6385e7c.css",
+    "static/js/main.5810e4b1.js"
+  ]
+}
