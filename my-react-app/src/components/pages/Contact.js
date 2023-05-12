@@ -1,22 +1,47 @@
 import React from 'react';
 
+const styles ={
+  h1: {
+    textAlign: 'center',
+    color: '#333',
+  },
+  contactForm: {
+    margin: '20px',
+    maxWidth: '600px',
+  },
+  inputs: {
+    marginRight: '10px',
+    marginBottom: '10px',
+  },
+  comments: {
+    marginBottom: '10px',
+    marginRight: '10px',
+  },
+  button: {
+    marginTop: '10px',
+    marginBottom: '10px',
+  }
+}
+
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1 style={styles.h1}>Contact</h1>
+      <div class="contact-form" style={styles.contactForm}>
+        <div>
+          <label for="exampleFormControlInput1" class="form-label" style={styles.inputs}>Name:</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" style={styles.inputs} placeholder="name"></input>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label" style={styles.inputs}>Email address:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" style={styles.inputs} placeholder="name@example.com"></input>
+        </div>
+        <div class="form-floating">
+          <label for="floatingTextarea2" style={styles.comments}>Comments</label> 
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+        </div>
+        <button style={styles.button}>Submit</button>
+      </div>
     </div>
   );
 }
