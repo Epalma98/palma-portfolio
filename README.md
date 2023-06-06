@@ -22,8 +22,8 @@ Using all of the frameworks and skills I have learned over the past few months, 
 ## Questions
 How to get in contact with me:
 * Github: https://github.com/epalma98
-* Github Repo: https://github.com/Epalma98/pwa-text-editor
-* 
+* Github Repo: https://github.com/Epalma98/palma-portfolio
+* Website URL: https://epalma98.github.io/palma-portfolio
 
 
 

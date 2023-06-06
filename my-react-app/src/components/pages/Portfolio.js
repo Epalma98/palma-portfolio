@@ -4,6 +4,7 @@ import moondollarsImg from '../../assets/moon-dollars-fullstack-app.png';
 import craftAndCocktailsImg from '../../assets/CraftAndCocktail.png';
 import jateImg from '../../assets/JATEhomepage.png';
 import weatherAppImg from '../../assets/weatherApp.png';
+import ceraWorks from '../../assets/ceraWorks.png';
 
 
 const styles = {
@@ -40,6 +41,12 @@ export default function Portfolio() {
 
       <div class="container" style={styles.gridStyle}>
         <div class="row">
+          <div class="col-3">
+            <a href="https://limitless-citadel-10525.herokuapp.com/"> 
+              <img style={styles.projectImg} src={ceraWorks} alt="CeraWorks Fullstack App"></img>
+            </a>
+            <p style={styles.caption}>CeraWorks Car Detailing Service webpage</p>
+          </div>
           <div class="col-3">
             <a href="https://whispering-garden-84047.herokuapp.com/"> 
               <img style={styles.projectImg} src={moondollarsImg} alt="MoonDollars Fullstack App"></img>
