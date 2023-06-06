@@ -65,12 +65,12 @@ export default function Portfolio() {
             </a>
             <p style={styles.caption}>J.A.T.E Text Editor</p>
           </div>
-          <div class="col-3">
+          {/* <div class="col-3">
             <a href="https://epalma98.github.io/Weather-Dashboard/"> 
               <img style={styles.projectImg} src={weatherAppImg} alt="Weather App"></img>
             </a>
             <p style={styles.caption}>Weather App</p>
-          </div>
+          </div> */}
         </div>
       </div>  
 
